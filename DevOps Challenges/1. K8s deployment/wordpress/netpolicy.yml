@@ -1,0 +1,25 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: allow-necessary-traffic
+spec:
+  podSelector:
+    matchLabels:
+      app: wordpress  # Label selector for WordPress pods
+      app: mysql      # Label selector for MySQL pods
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels:
+          app: wordpress  # Allow traffic from WordPress pods
+    - podSelector:
+        matchLabels:
+          app: mysql      # Allow traffic from MySQL pods
+  egress:
+  - to:
+    - podSelector:
+        matchLabels:
+          app: wordpress  # Allow traffic to WordPress pods
+    - podSelector:
+        matchLabels:
+          app: mysql      # Allow traffic to MySQL pods
