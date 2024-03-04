@@ -1,0 +1,8 @@
+DevOps Challenges/4. SSL Certificates/operator.crt
+DevOps Challenges/4. SSL Certificates/operator.csr
+DevOps Challenges/4. SSL Certificates/operator.key
+env/
+DevOps Challenges/6. Three Tier Terraform Architecture/testing/.terraform.lock.hcl
+DevOps Challenges/6. Three Tier Terraform Architecture/testing/terraform.tfstate
+DevOps Challenges/6. Three Tier Terraform Architecture/testing/terraform.tfstate.backup
+DevOps Challenges/6. Three Tier Terraform Architecture/testing/.terraform/providers/registry.terraform.io/hashicorp/aws/5.39.0/linux_amd64/terraform-provider-aws_v5.39.0_x5

@@ -1,0 +1,31 @@
+
+
+# Define RBAC permissions
+# This Role allows getting pods in the kube-system namespace
+# Adjust the permissions as needed
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  namespace: kube-system
+  name: pod-reader
+rules:
+- apiGroups: [""]
+  resources: ["pods"]
+  verbs: ["get", "list"]
+
+# This RoleBinding binds the Role to the operator user
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: operator-pod-reader-binding
+  namespace: kube-system
+subjects:
+- kind: User
+  name: operator
+  apiGroup: rbac.authorization.k8s.io
+roleRef:
+  kind: Role
+  name: pod-reader
+  apiGroup: rbac.authorization.k8s.io
