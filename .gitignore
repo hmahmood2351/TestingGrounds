@@ -8,3 +8,8 @@ DevOps Challenges/6. Three Tier Terraform Architecture/testing/terraform.tfstate
 DevOps Challenges/6. Three Tier Terraform Architecture/testing/.terraform/providers/registry.terraform.io/hashicorp/aws/5.39.0/linux_amd64/terraform-provider-aws_v5.39.0_x5
 DevOps Challenges/6. Three Tier Terraform Architecture/test-2/.terraform/providers/registry.terraform.io/hashicorp/aws/5.39.1/linux_amd64/terraform-provider-aws_v5.39.1_x5
 DevOps Challenges/6. Three Tier Terraform Architecture/test-1/.terraform/providers/registry.terraform.io/hashicorp/aws/5.39.0/linux_amd64/terraform-provider-aws_v5.39.0_x5
+DevOps Challenges/6. Three Tier Terraform Architecture/test-3/.terraform/providers/registry.terraform.io/kreuzwerker/docker/3.0.2/linux_amd64/CHANGELOG.md
+DevOps Challenges/6. Three Tier Terraform Architecture/test-3/.terraform/providers/registry.terraform.io/kreuzwerker/docker/3.0.2/linux_amd64/LICENSE
+DevOps Challenges/6. Three Tier Terraform Architecture/test-3/.terraform/providers/registry.terraform.io/kreuzwerker/docker/3.0.2/linux_amd64/README.md
+DevOps Challenges/6. Three Tier Terraform Architecture/test-3/.terraform/providers/registry.terraform.io/kreuzwerker/docker/3.0.2/linux_amd64/terraform-provider-docker_v3.0.2
+DevOps Challenges/6. Three Tier Terraform Architecture/test-4/.terraform/providers/registry.terraform.io/hashicorp/aws/5.39.1/linux_amd64/terraform-provider-aws_v5.39.1_x5

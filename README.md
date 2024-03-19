@@ -26,3 +26,7 @@ kubectl config set-credentials <user-name> --token=<generated-token>
 Some AWS stuff tested using localstack:
 https://github.com/localstack/localstack?tab=readme-ov-file
 
+tflocal (terraform local)
+awslocal (aws local using v1 of aws cli)
+
+localstack start
